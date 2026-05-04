@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- SEO -->
+  <title>Bolos da Simone | Bolos caseiros em Capão da Canoa — peça pelo WhatsApp</title>
+  <meta name="description"
+    content="Bolos caseiros em Capão da Canoa feitos na hora. Peça pelo WhatsApp e receba fresquinho. Sabores variados com cobertura artesanal.">
+  <link rel="canonical" href="https://SEU-USUARIO.github.io/bolos-da-simone/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Bolos da Simone — Bolos caseiros em Capão da Canoa">
+  <meta property="og:description"
+    content="Bolos caseiros feitos na hora em Capão da Canoa. Peça pelo WhatsApp e receba fresquinho. Coberturas artesanais.">
+  <meta property="og:url" content="https://SEU-USUARIO.github.io/bolos-da-simone/">
+  <meta property="og:image" content="https://SEU-USUARIO.github.io/bolos-da-simone/og-bolos-da-simone.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:alt" content="Bolos caseiros Bolos da Simone — Capão da Canoa">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Bolos da Simone — Bolos caseiros em Capão da Canoa">
+  <meta name="twitter:description"
+    content="Bolos caseiros em Capão da Canoa feitos na hora. Peça pelo WhatsApp e receba fresquinho.">
+  <meta name="twitter:image" content="https://SEU-USUARIO.github.io/bolos-da-simone/og-bolos-da-simone.png">
+
+  <link rel="preload" as="image" href="hero-bolo-simone.png" fetchpriority="high">
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- Google Fonts: títulos cursivos + Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap"
+    rel="stylesheet">
+
+  <style>
+    :root {
+      --cor-marrom: #6B3E26;
+      --cor-bege: #F5E6D3;
+      --cor-caramelo: #D9A066;
+      --cor-creme: #FFF8F0;
+      --cor-marrom-escuro: #4a2a1a;
+      --radius-premium: 1.5rem;
+      --radius-xl: 2rem;
+      --shadow-soft: 0 14px 44px rgba(107, 62, 38, 0.07);
+      --shadow-hover: 0 22px 56px rgba(107, 62, 38, 0.11);
+      --section-pad: clamp(3.25rem, 7vw, 5.75rem);
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: "Poppins", system-ui, -apple-system, sans-serif;
+      background-color: var(--cor-creme);
+      color: var(--cor-marrom);
+      font-size: clamp(1rem, 0.25vw + 0.95rem, 1.0625rem);
+      line-height: 1.65;
+    }
+
+    h1,
+    h2,
+    h3,
+    .font-display {
+      font-family: "Dancing Script", "Playfair Display", Georgia, serif;
+      font-weight: 700;
+      letter-spacing: 0.01em;
+    }
+
+    .section-y {
+      padding-top: var(--section-pad);
+      padding-bottom: var(--section-pad);
+    }
+
+    .text-marrom {
+      color: var(--cor-marrom) !important;
+    }
+
+    .bg-bege {
+      background-color: var(--cor-bege) !important;
+    }
+
+    .bg-creme {
+      background-color: var(--cor-creme) !important;
+    }
+
+    .bg-caramelo {
+      background-color: var(--cor-caramelo) !important;
+    }
+
+    /* Destaque tipográfico (gatilhos de conversão) */
+    .hl-mark {
+      color: var(--cor-marrom);
+      font-weight: 600;
+      font-family: "Poppins", sans-serif;
+      font-style: normal;
+      background: linear-gradient(transparent 62%, rgba(217, 160, 102, 0.45) 62%);
+      padding: 0 0.08em;
+    }
+
+    .btn-whatsapp {
+      background: linear-gradient(180deg, #2fe26f 0%, #25D366 45%, #1ebe57 100%);
+      border: none;
+      color: #fff;
+      font-weight: 700;
+      padding: 0.85rem 1.65rem;
+      border-radius: 999px;
+      box-shadow: 0 6px 22px rgba(37, 211, 102, 0.42), 0 1px 0 rgba(255, 255, 255, 0.25) inset;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+    }
+
+    .btn-whatsapp:hover {
+      color: #fff;
+      filter: brightness(1.05);
+      transform: translateY(-3px);
+      box-shadow: 0 10px 32px rgba(37, 211, 102, 0.5);
+    }
+
+    .btn-whatsapp-hero {
+      font-size: clamp(1.05rem, 2.5vw, 1.25rem);
+      padding: 1rem 1.85rem;
+      min-height: 3.25rem;
+    }
+
+    .btn-whatsapp-lg {
+      font-size: clamp(1.05rem, 2vw, 1.2rem);
+      padding: 1.05rem 2.1rem;
+    }
+
+    /* ========== HERO PREMIUM (imagem inteira — sem crop) ========== */
+    .hero-premium {
+      background: linear-gradient(160deg, var(--cor-bege) 0%, var(--cor-creme) 50%, #ede0d4 100%);
+      overflow: hidden;
+    }
+
+    .hero-copy-col {
+      z-index: 2;
+    }
+
+    .hero-copy-inner {
+      max-width: 32rem;
+    }
+
+    /* Foto do hero: proporção natural do arquivo (banner largo); nunca cover */
+    .hero-photo-col {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .hero-photo-frame {
+      position: relative;
+      width: 100%;
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: var(--radius-xl);
+      overflow: hidden;
+      box-shadow: var(--shadow-soft);
+      border: 3px solid rgba(217, 160, 102, 0.55);
+      background: linear-gradient(180deg, #faf6f0 0%, var(--cor-bege) 100%);
+    }
+
+    .hero-photo-inner {
+      position: relative;
+      display: block;
+      line-height: 0;
+    }
+
+    .hero-photo-img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      display: block;
+      object-fit: contain;
+      object-position: center center;
+      transition: transform 0.45s cubic-bezier(0.33, 1, 0.68, 1);
+    }
+
+    .hero-photo-frame:hover .hero-photo-img {
+      transform: scale(1.015);
+    }
+
+    /* Overlay leve só por cima da arte (não força recorte) */
+    .hero-photo-gradient {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background: linear-gradient(to top, rgba(45, 28, 18, 0.22) 0%, transparent 38%),
+        linear-gradient(90deg, rgba(255, 248, 240, 0.35) 0%, transparent 28%);
+    }
+
+    @media (max-width: 991.98px) {
+      .hero-photo-gradient {
+        background: linear-gradient(to top, rgba(45, 28, 18, 0.28) 0%, transparent 45%),
+          linear-gradient(180deg, transparent 55%, rgba(255, 248, 240, 0.2) 100%);
+      }
+    }
+
+    @media (min-width: 992px) {
+      .hero-premium .row-hero {
+        align-items: center;
+      }
+
+      .hero-photo-frame {
+        max-width: none;
+      }
+    }
+
+    .hero-title {
+      font-size: clamp(2.35rem, 5.5vw, 3.85rem);
+      line-height: 1.12;
+    }
+
+    .hero-lead {
+      font-size: clamp(1.05rem, 2.2vw, 1.2rem);
+      line-height: 1.55;
+      max-width: 28rem;
+    }
+
+    .hero-proof-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 0.75rem;
+      justify-content: center;
+    }
+
+    @media (min-width: 992px) {
+      .hero-proof-row {
+        justify-content: flex-start;
+      }
+    }
+
+    .hero-proof-pill {
+      font-size: clamp(0.78rem, 1.5vw, 0.875rem);
+      font-weight: 600;
+      color: var(--cor-marrom);
+      background: rgba(255, 255, 255, 0.75);
+      border: 1px solid rgba(217, 160, 102, 0.45);
+      border-radius: 999px;
+      padding: 0.4rem 0.85rem;
+    }
+
+    .wa-microcopy {
+      font-size: clamp(0.82rem, 1.8vw, 0.9rem);
+      color: var(--cor-marrom);
+    }
+
+    /* ========== GRID SABORES (destaques) ========== */
+    .img-tile {
+      position: relative;
+      border-radius: var(--radius-premium);
+      overflow: hidden;
+      background: #fff;
+      box-shadow: var(--shadow-soft);
+      transition: transform 0.35s ease, box-shadow 0.35s ease;
+      aspect-ratio: 1 / 1;
+    }
+
+    .img-tile:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow-hover);
+    }
+
+    .img-tile img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+
+    .img-tile:hover img {
+      transform: scale(1.06);
+    }
+
+    .img-tile figcaption {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 0.65rem 0.85rem;
+      font-size: clamp(0.8rem, 2vw, 0.9rem);
+      font-weight: 600;
+      color: #fff;
+      background: linear-gradient(to top, rgba(45, 28, 18, 0.88), transparent);
+      margin: 0;
+    }
+
+    /* ========== BLOCO IMAGEM + TEXTO (fubá, café, mesa) ========== */
+    .visual-block {
+      border-radius: var(--radius-xl);
+      overflow: hidden;
+      background: #fff;
+      box-shadow: var(--shadow-soft);
+      transition: box-shadow 0.35s ease;
+    }
+
+    .visual-block:hover {
+      box-shadow: var(--shadow-hover);
+    }
+
+    .visual-block-img {
+      position: relative;
+      min-height: min(52vw, 20rem);
+      overflow: hidden;
+    }
+
+    @media (min-width: 992px) {
+      .visual-block-img {
+        min-height: 100%;
+      }
+    }
+
+    .visual-block-img img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.55s ease;
+    }
+
+    .visual-block:hover .visual-block-img img {
+      transform: scale(1.04);
+    }
+
+    .visual-block-body {
+      padding: clamp(1.5rem, 4vw, 2.75rem);
+    }
+
+    .preco-destaque-sm {
+      font-size: clamp(1.75rem, 4vw, 2.35rem);
+      font-weight: 700;
+      color: var(--cor-caramelo);
+      font-family: "Poppins", sans-serif;
+    }
+
+    /* ========== CTA ENTRE SEÇÕES ========== */
+    .section-cta {
+      padding: 1.15rem 0;
+    }
+
+    .section-cta-inner {
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(245, 230, 211, 0.65));
+      border: 1px solid rgba(217, 160, 102, 0.35);
+      border-radius: var(--radius-premium);
+      box-shadow: 0 8px 28px rgba(107, 62, 38, 0.06);
+    }
+
+    /* ========== FAB WHATSAPP (desktop) ========== */
+    .wa-fab {
+      position: fixed;
+      right: 1.25rem;
+      bottom: 1.25rem;
+      z-index: 1040;
+      width: 3.75rem;
+      height: 3.75rem;
+      border-radius: 50%;
+      background: linear-gradient(180deg, #2fe26f, #25D366);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.65rem;
+      box-shadow: 0 8px 28px rgba(37, 211, 102, 0.45);
+      text-decoration: none;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .wa-fab:hover {
+      color: #fff;
+      transform: scale(1.08);
+      box-shadow: 0 12px 36px rgba(37, 211, 102, 0.55);
+    }
+
+    @media (max-width: 767.98px) {
+      .wa-fab {
+        display: none !important;
+      }
+    }
+
+    /* Depoimentos */
+    .card-depoimento {
+      border-left: 4px solid var(--cor-caramelo);
+    }
+
+    .urgencia-preco {
+      background: rgba(217, 160, 102, 0.22);
+      border: 1px solid rgba(217, 160, 102, 0.45);
+      border-radius: var(--radius-premium);
+      color: var(--cor-marrom);
+    }
+
+    .passo-num {
+      width: 3.25rem;
+      height: 3.25rem;
+      border-radius: 50%;
+      background: var(--cor-marrom);
+      color: var(--cor-creme);
+      font-weight: 700;
+      font-size: 1.15rem;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 0.85rem;
+    }
+
+    .reveal-on-scroll {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.7s ease, transform 0.7s ease;
+    }
+
+    .reveal-on-scroll.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Cards premium */
+    .card-soft {
+      background: #fff;
+      border: none;
+      border-radius: var(--radius-premium);
+      box-shadow: var(--shadow-soft);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card-soft:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow-hover);
+    }
+
+    .preco-destaque {
+      background: linear-gradient(135deg, var(--cor-marrom) 0%, var(--cor-marrom-escuro) 100%);
+      color: var(--cor-creme);
+      border-radius: var(--radius-xl);
+      padding: clamp(1.75rem, 4vw, 2.35rem);
+      box-shadow: 0 20px 50px rgba(74, 42, 26, 0.32);
+    }
+
+    .preco-item {
+      border-bottom: 1px solid rgba(255, 248, 240, 0.2);
+      padding: 0.85rem 0;
+    }
+
+    .preco-item:last-child {
+      border-bottom: none;
+    }
+
+    .lista-sabor li {
+      padding: 0.55rem 0;
+      border-bottom: 1px dashed rgba(107, 62, 38, 0.18);
+    }
+
+    .lista-sabor li:last-child {
+      border-bottom: none;
+    }
+
+    .diff-icon {
+      width: 3.25rem;
+      height: 3.25rem;
+      border-radius: 50%;
+      background: var(--cor-bege);
+      color: var(--cor-marrom);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.4rem;
+      transition: transform 0.25s ease, background 0.25s ease;
+    }
+
+    .card-soft:hover .diff-icon {
+      transform: rotate(-5deg) scale(1.06);
+      background: var(--cor-caramelo);
+      color: #fff;
+    }
+
+    .cta-forte {
+      background: linear-gradient(180deg, var(--cor-caramelo) 0%, #c98f52 100%);
+      border-radius: var(--radius-xl);
+      color: var(--cor-marrom-escuro);
+    }
+
+    footer {
+      background: var(--cor-marrom);
+      color: var(--cor-bege);
+    }
+
+    footer a {
+      color: var(--cor-caramelo);
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    footer a:hover {
+      color: #fff;
+    }
+
+    .sticky-wa {
+      display: none;
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 1050;
+      padding: 0.65rem 1rem calc(0.75rem + env(safe-area-inset-bottom));
+      background: linear-gradient(to top, rgba(255, 248, 240, 0.97), rgba(255, 248, 240, 0.88));
+      box-shadow: 0 -10px 36px rgba(107, 62, 38, 0.12);
+    }
+
+    @media (max-width: 767.98px) {
+      .sticky-wa {
+        display: block;
+      }
+
+      body {
+        padding-bottom: 6.75rem;
+      }
+    }
+
+    .section-title {
+      font-size: clamp(2.15rem, 4.5vw, 3rem);
+      line-height: 1.15;
+    }
+
+    .section-kicker {
+      font-size: clamp(0.75rem, 1.5vw, 0.8rem);
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: var(--cor-caramelo);
+    }
+
+    .prova-chip {
+      background: rgba(217, 160, 102, 0.25);
+      border-radius: 999px;
+      padding: 0.5rem 1rem;
+      font-weight: 500;
+      font-size: clamp(0.85rem, 2vw, 0.95rem);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .reveal-on-scroll {
+        opacity: 1;
+        transform: none;
+        transition: none;
+      }
+
+      .hero-photo-frame:hover .hero-photo-img,
+      .img-tile:hover img,
+      .visual-block:hover .visual-block-img img,
+      .img-tile:hover,
+      .card-soft:hover {
+        transform: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ========== HERO (visual forte + overlay + CTA) ========== -->
+  <header class="hero-premium">
+    <div class="container py-3 py-lg-0">
+      <div class="row row-hero g-4 g-lg-4 align-items-center">
+        <div class="col-lg-5 col-xl-5 d-flex align-items-center hero-copy-col order-2 order-lg-1 py-lg-5">
+          <div class="hero-copy-inner mx-auto mx-lg-0 text-center text-lg-start px-1">
+            <p class="section-kicker mb-2">Bolos da Simone</p>
+            <h1 class="hero-title text-marrom mb-3">
+              Seu café da tarde merece um <span class="hl-mark">bolo de verdade</span> ☕
+            </h1>
+            <p class="hero-lead text-marrom mb-4 mx-auto mx-lg-0 fw-normal">
+              <span class="hl-mark">Feito na hora</span>, com <span class="hl-mark">sabor de casa</span> em Capão da
+              Canoa
+            </p>
+            <a href="https://wa.me/5551981605691?text=Oi%2C+quero+pedir+um+bolo"
+              class="btn btn-whatsapp btn-whatsapp-hero px-4 px-sm-5 mb-3" target="_blank" rel="noopener noreferrer">
+              Fazer pedido agora
+            </a>
+            <div class="hero-proof-row mb-3" aria-label="Destaques do atendimento">
+              <span class="hero-proof-pill">feito na hora</span>
+              <span class="hero-proof-pill">ingredientes selecionados</span>
+            </div>
+            <p class="wa-microcopy mb-1 fw-medium">Resposta rápida no WhatsApp</p>
+            <p class="wa-microcopy small mb-0 opacity-75">Resposta rápida • atendimento direto</p>
+          </div>
+        </div>
+        <div class="col-lg-7 col-xl-7 hero-photo-col order-1 order-lg-2">
+          <div class="hero-photo-frame mx-auto w-100">
+            <div class="hero-photo-inner">
+              <img class="hero-photo-img" src="hero-bolo-simone.png" width="2000" height="857"
+                alt="Bolos da Simone — arte do banner com Simone, bolos e chamada para pedido no WhatsApp"
+                loading="eager" fetchpriority="high" decoding="async" sizes="(min-width: 1200px) 58vw, 100vw">
+              <div class="hero-photo-gradient" aria-hidden="true"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========== PROVA / CONEXÃO ========== -->
+  <section class="section-y bg-creme reveal-on-scroll" aria-labelledby="prova-heading">
+    <div class="container">
+      <h2 id="prova-heading" class="visually-hidden">Por que escolher os bolos</h2>
+      <div class="row justify-content-center g-3 text-center">
+        <div class="col-md-4">
+          <span class="prova-chip d-inline-block text-marrom">Sabor de casa que abraça</span>
+        </div>
+        <div class="col-md-4">
+          <span class="prova-chip d-inline-block text-marrom">Ideal para café da tarde</span>
+        </div>
+        <div class="col-md-4">
+          <span class="prova-chip d-inline-block text-marrom">Feito na hora com ingredientes selecionados</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== DESTAQUES DOS SABORES (grid visual) ========== -->
+  <section class="section-y bg-bege reveal-on-scroll" aria-labelledby="destaques-heading">
+    <div class="container">
+      <div class="text-center mb-5 pb-lg-1">
+        <p class="section-kicker mb-2">Para dar água na boca</p>
+        <h2 id="destaques-heading" class="section-title text-marrom mb-2">Destaques dos sabores</h2>
+        <p class="text-marrom mb-0 opacity-75 col-lg-8 mx-auto">Cada fatia é convite para o próximo café — veja de
+          pertinho.</p>
+      </div>
+      <div class="row g-3 g-md-4">
+        <div class="col-6 col-lg-3">
+          <figure class="img-tile mb-0">
+            <img src="bolo-chocolate.png" width="800" height="800" alt="Bolo de chocolate com cobertura cremosa"
+              loading="lazy" decoding="async">
+            <figcaption>Chocolate com cobertura cremosa</figcaption>
+          </figure>
+        </div>
+        <div class="col-6 col-lg-3">
+          <figure class="img-tile mb-0">
+            <img src="bolo-cenoura.png" width="800" height="800" alt="Bolo de cenoura fofinho" loading="lazy"
+              decoding="async">
+            <figcaption>Cenoura fofinha, sabor de casa</figcaption>
+          </figure>
+        </div>
+        <div class="col-6 col-lg-3">
+          <figure class="img-tile mb-0">
+            <img src="bolo-leite-ninho.png" width="800" height="800" alt="Bolo de leite ninho" loading="lazy"
+              decoding="async">
+            <figcaption>Leite Ninho que derrete na boca</figcaption>
+          </figure>
+        </div>
+        <div class="col-6 col-lg-3">
+          <figure class="img-tile mb-0">
+            <img src="bolo-cafe.png" width="800" height="800" alt="Bolo de café aromático" loading="lazy"
+              decoding="async">
+            <figcaption>Café aromático, par perfeito</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-cta bg-bege reveal-on-scroll">
+    <div class="container">
+      <div
+        class="section-cta-inner d-flex flex-column flex-md-row align-items-center justify-content-between gap-3 py-3 px-3 px-md-4">
+        <p class="mb-0 fw-semibold text-marrom text-center text-md-start">👉 Peça agora pelo WhatsApp</p>
+        <a href="https://wa.me/5551981605691?text=Oi%2C+quero+pedir+um+bolo" class="btn btn-whatsapp flex-shrink-0"
+          target="_blank" rel="noopener noreferrer">Pedir bolo</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== PROVA SOCIAL (depoimentos) ========== -->
+  <section class="section-y bg-creme reveal-on-scroll" aria-labelledby="depoimentos-heading">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 id="depoimentos-heading" class="section-title text-marrom mb-2">Quem já provou</h2>
+        <p class="text-marrom mb-0 opacity-75 small">Palavras de quem sentiu o gosto de casa.</p>
+      </div>
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-4">
+          <blockquote class="card card-soft card-depoimento h-100 p-4 mb-0 text-center text-marrom">
+            <p class="mb-0 fst-italic">“Melhor bolo de cenoura que já comi!”</p>
+          </blockquote>
+        </div>
+        <div class="col-md-4">
+          <blockquote class="card card-soft card-depoimento h-100 p-4 mb-0 text-center text-marrom">
+            <p class="mb-0 fst-italic">“Parece bolo de vó ❤️”</p>
+          </blockquote>
+        </div>
+        <div class="col-md-4">
+          <blockquote class="card card-soft card-depoimento h-100 p-4 mb-0 text-center text-marrom">
+            <p class="mb-0 fst-italic">“Perfeito com café, não sobra nada”</p>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SIMPLES TAMBÉM É PERFEITO (fubá + preço R$15) ========== -->
+  <section class="section-y bg-bege reveal-on-scroll" aria-labelledby="simples-heading">
+    <div class="container">
+      <div class="row g-0 visual-block align-items-stretch flex-column flex-lg-row">
+        <div class="col-lg-6 visual-block-img p-0">
+          <img src="bolo-fuba.png" width="1200" height="825" alt="Bolo de fubá cremoso — simples e perfeito"
+            loading="lazy" decoding="async">
+        </div>
+        <div class="col-lg-6 visual-block-body d-flex flex-column justify-content-center text-center text-lg-start">
+          <p class="section-kicker mb-2">Sem cobertura, cheio de amor</p>
+          <h2 id="simples-heading" class="section-title text-marrom mb-3">Simples também é perfeito</h2>
+          <p class="text-marrom opacity-90 mb-3">Fubá cremoso, textura macia e aquele gosto que lembra a vó. Ideal para
+            o dia a dia — e cabe no bolso.</p>
+          <p class="preco-destaque-sm mb-4">A partir de <span class="text-marrom">R$ 15</span> <span
+              class="fs-6 fw-normal opacity-75">sem cobertura</span></p>
+          <p class="small text-marrom opacity-75 mb-0">Quer com cobertura? Combina no WhatsApp — a partir de R$ 25.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-cta bg-bege reveal-on-scroll">
+    <div class="container">
+      <div
+        class="section-cta-inner d-flex flex-column flex-md-row align-items-center justify-content-between gap-3 py-3 px-3 px-md-4">
+        <p class="mb-0 fw-semibold text-marrom text-center text-md-start">👉 Peça agora pelo WhatsApp</p>
+        <a href="https://wa.me/5551981605691?text=Oi%2C+quero+pedir+um+bolo" class="btn btn-whatsapp flex-shrink-0"
+          target="_blank" rel="noopener noreferrer">Pedir bolo</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== MOMENTO DO CAFÉ (gatilho emocional) ========== -->
+  <section class="section-y bg-creme reveal-on-scroll" aria-labelledby="momento-cafe-heading">
+    <div class="container">
+      <div class="row g-0 visual-block flex-column-reverse flex-lg-row align-items-stretch">
+        <div
+          class="col-lg-5 visual-block-body d-flex flex-column justify-content-center text-center text-lg-start order-lg-1">
+          <p class="section-kicker mb-2">Momento do café</p>
+          <h2 id="momento-cafe-heading" class="section-title text-marrom mb-3">Um café quentinho + bolo caseiro muda o
+            seu dia</h2>
+          <p class="text-marrom opacity-90 mb-0">Pausa merecida, mesa posta e aroma que abraça. É disso que a gente
+            gosta — e é isso que você leva pra casa.</p>
+        </div>
+        <div class="col-lg-7 visual-block-img p-0 order-lg-2">
+          <img src="cafe-com-bolo.png" width="1200" height="825" alt="Café quentinho com bolo caseiro" loading="lazy"
+            decoding="async">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-cta bg-creme reveal-on-scroll">
+    <div class="container">
+      <div
+        class="section-cta-inner d-flex flex-column flex-md-row align-items-center justify-content-between gap-3 py-3 px-3 px-md-4">
+        <p class="mb-0 fw-semibold text-marrom text-center text-md-start">👉 Peça agora pelo WhatsApp</p>
+        <a href="https://wa.me/5551981605691?text=Oi%2C+quero+pedir+um+bolo" class="btn btn-whatsapp flex-shrink-0"
+          target="_blank" rel="noopener noreferrer">Pedir bolo</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== MESA COMPLETA (família / visita) ========== -->
+  <section class="section-y bg-bege reveal-on-scroll" aria-labelledby="mesa-heading">
+    <div class="container">
+      <div class="row g-0 visual-block align-items-stretch flex-column flex-lg-row">
+        <div class="col-lg-7 visual-block-img p-0">
+          <img src="mesa-cafe-da-tarde.png" width="1200" height="825" alt="Mesa de café da tarde com variedade de bolos"
+            loading="lazy" decoding="async">
+        </div>
+        <div class="col-lg-5 visual-block-body d-flex flex-column justify-content-center text-center text-lg-start">
+          <p class="section-kicker mb-2">Para compartilhar</p>
+          <h2 id="mesa-heading" class="section-title text-marrom mb-3">Mesa completa</h2>
+          <p class="text-marrom opacity-90 mb-3">Recebeu visita? Quer agradar a família? Monte uma mesa generosa com
+            mais de um sabor — a Simone ajuda você a escolher a combinação certa.</p>
+          <p class="mb-0 fw-semibold text-marrom">Peça com antecedência e surpreenda na hora do café.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-cta bg-bege reveal-on-scroll">
+    <div class="container">
+      <div
+        class="section-cta-inner d-flex flex-column flex-md-row align-items-center justify-content-between gap-3 py-3 px-3 px-md-4">
+        <p class="mb-0 fw-semibold text-marrom text-center text-md-start">👉 Peça agora pelo WhatsApp</p>
+        <a href="https://wa.me/5551981605691?text=Oi%2C+quero+pedir+um+bolo" class="btn btn-whatsapp flex-shrink-0"
+          target="_blank" rel="noopener noreferrer">Pedir bolo</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== CARDÁPIO ========== -->
+  <section id="cardapio" class="section-y bg-creme reveal-on-scroll" aria-labelledby="cardapio-heading">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 id="cardapio-heading" class="section-title text-marrom mb-2">Cardápio de sabores</h2>
+        <p class="text-marrom mb-0 opacity-75">Escolha o seu favorito — tudo <span class="hl-mark">feito na hora</span>,
+          com o mesmo carinho de sempre.</p>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="card card-soft p-4 p-md-5">
+            <ul class="list-unstyled lista-sabor mb-0 text-marrom fs-5">
+              <li>Cappuccino</li>
+              <li>Fubá cremoso</li>
+              <li>Chocolate</li>
+              <li>Cenoura</li>
+              <li>Leite ninho</li>
+              <li>Formigueiro</li>
+              <li>Paçoca</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PREÇOS (DESTAQUE) + URGÊNCIA ========== -->
+  <section id="precos" class="section-y bg-creme reveal-on-scroll" aria-labelledby="precos-heading">
+    <div class="container">
+      <div class="text-center mb-4">
+        <h2 id="precos-heading" class="section-title text-marrom mb-2">Preços</h2>
+        <p class="text-marrom opacity-75 mb-0">Transparência do jeitinho de casa.</p>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <div class="preco-destaque">
+            <div class="preco-item d-flex justify-content-between align-items-center fs-5">
+              <span>Com cobertura</span>
+              <strong class="fs-4">R$ 25</strong>
+            </div>
+            <div class="preco-item d-flex justify-content-between align-items-center fs-5">
+              <span>Sem cobertura</span>
+              <strong class="fs-4">R$ 15</strong>
+            </div>
+            <div class="preco-item d-flex justify-content-between align-items-center fs-5 mb-0 pb-0">
+              <span>Cuca cremosa</span>
+              <strong class="fs-4">R$ 30</strong>
+            </div>
+          </div>
+          <p class="urgencia-preco text-center small fw-semibold mt-4 mb-0 py-3 px-3" role="status">
+            <span aria-hidden="true">⚠️</span> Produção limitada por dia — sob encomenda
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== COBERTURAS ========== -->
+  <section class="section-y bg-bege reveal-on-scroll" aria-labelledby="coberturas-heading">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 id="coberturas-heading" class="section-title text-marrom mb-2">Coberturas</h2>
+        <p class="text-marrom opacity-75 mb-0">Para deixar seu bolo ainda mais especial.</p>
+      </div>
+      <div class="row g-4 justify-content-center">
+        <div class="col-sm-6 col-lg-3">
+          <div class="card card-soft h-100 p-4 text-center text-marrom">
+            <p class="mb-0 fw-semibold">Brigadeiro branco</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="card card-soft h-100 p-4 text-center text-marrom">
+            <p class="mb-0 fw-semibold">Cappuccino</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="card card-soft h-100 p-4 text-center text-marrom">
+            <p class="mb-0 fw-semibold">Brigadeiro chocolate</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="card card-soft h-100 p-4 text-center text-marrom">
+            <p class="mb-0 fw-semibold">Ganache doce de leite</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== DIFERENCIAIS ========== -->
+  <section class="section-y bg-creme reveal-on-scroll" aria-labelledby="diferenciais-heading">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 id="diferenciais-heading" class="section-title text-marrom mb-2">Diferenciais</h2>
+      </div>
+      <div class="row g-4">
+        <div class="col-6 col-md-3">
+          <div class="card card-soft h-100 p-4 text-center">
+            <div class="diff-icon mx-auto mb-3" aria-hidden="true">⏱</div>
+            <h3 class="h6 text-marrom fw-semibold mb-0">Feito na hora</h3>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card card-soft h-100 p-4 text-center">
+            <div class="diff-icon mx-auto mb-3" aria-hidden="true">✦</div>
+            <h3 class="h6 text-marrom fw-semibold mb-0">Ingredientes selecionados</h3>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card card-soft h-100 p-4 text-center">
+            <div class="diff-icon mx-auto mb-3" aria-hidden="true">♡</div>
+            <h3 class="h6 text-marrom fw-semibold mb-0">Sabor caseiro</h3>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card card-soft h-100 p-4 text-center">
+            <div class="diff-icon mx-auto mb-3" aria-hidden="true">☕</div>
+            <h3 class="h6 text-marrom fw-semibold mb-0">Ideal para compartilhar</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== COMO FUNCIONA (jornada do pedido) ========== -->
+  <section class="section-y bg-creme reveal-on-scroll" aria-labelledby="como-funciona-heading">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 id="como-funciona-heading" class="section-title text-marrom mb-2">Como funciona</h2>
+        <p class="text-marrom mb-0 opacity-75 small">Três passos até o café da tarde perfeito.</p>
+      </div>
+      <div class="row g-4 text-center justify-content-center">
+        <div class="col-md-4">
+          <div class="card card-soft h-100 p-4">
+            <div class="passo-num mx-auto" aria-hidden="true">1</div>
+            <h3 class="h6 text-marrom fw-semibold mb-0">Escolha o sabor</h3>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-soft h-100 p-4">
+            <div class="passo-num mx-auto" aria-hidden="true">2</div>
+            <h3 class="h6 text-marrom fw-semibold mb-0">Chame no WhatsApp</h3>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-soft h-100 p-4">
+            <div class="passo-num mx-auto" aria-hidden="true">3</div>
+            <h3 class="h6 text-marrom fw-semibold mb-0">Receba seu bolo fresquinho</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA FORTE ========== -->
+  <section class="section-y bg-bege reveal-on-scroll" aria-labelledby="cta-heading">
+    <div class="container">
+      <div class="cta-forte text-center p-5 p-md-5 shadow">
+        <h2 id="cta-heading" class="section-title mb-3" style="font-family: 'Playfair Display', Georgia, serif;">
+          Peça agora e garanta seu bolo fresquinho
+        </h2>
+        <p class="mb-4 opacity-90">Encomende hoje e receba <span class="hl-mark">feito na hora</span></p>
+        <a href="https://wa.me/5551981605691?text=Oi%2C+quero+pedir+um+bolo" class="btn btn-whatsapp btn-whatsapp-lg"
+          target="_blank" rel="noopener noreferrer">
+          Fazer pedido no WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== RODAPÉ ========== -->
+  <footer class="py-5 mt-0">
+    <div class="container">
+      <div class="row g-4 text-center text-md-start">
+        <div class="col-md-4">
+          <h3 class="h5 font-display mb-3">Bolos da Simone</h3>
+          <p class="mb-0 small opacity-90">Capão da Canoa — RS</p>
+        </div>
+        <div class="col-md-4">
+          <h3 class="h6 text-uppercase small fw-bold mb-3" style="letter-spacing: 0.08em;">Contato</h3>
+          <p class="mb-2">
+            <a href="https://wa.me/5551981605691?text=Oi%2C+quero+pedir+um+bolo" target="_blank"
+              rel="noopener noreferrer">WhatsApp</a>
+          </p>
+          <p class="mb-0 small">Pix disponível para pagamento.</p>
+        </div>
+        <div class="col-md-4">
+          <h3 class="h6 text-uppercase small fw-bold mb-3" style="letter-spacing: 0.08em;">Quem faz</h3>
+          <p class="mb-0">Simone Schütz</p>
+        </div>
+      </div>
+      <hr class="border-secondary opacity-25 my-4">
+      <p class="text-center small mb-0 opacity-75">&copy; <span id="ano"></span> Bolos da Simone. Feito com amor em
+        Capão da Canoa.</p>
+    </div>
+  </footer>
+
+  <!-- ========== FAB WHATSAPP (desktop — sempre visível) ========== -->
+  <a href="https://wa.me/5551981605691?text=Oi%2C+quero+pedir+um+bolo" class="wa-fab" target="_blank"
+    rel="noopener noreferrer" aria-label="Pedir bolo pelo WhatsApp" title="WhatsApp">
+    <span aria-hidden="true">💬</span>
+  </a>
+
+  <!-- ========== STICKY WHATSAPP (MOBILE) ========== -->
+  <div class="sticky-wa" role="region" aria-label="Atalho para pedido no WhatsApp">
+    <p class="text-center small fw-semibold text-marrom mb-2 mb-md-1">👉 Peça agora pelo WhatsApp</p>
+    <a href="https://wa.me/5551981605691?text=Oi%2C+quero+pedir+um+bolo" class="btn btn-whatsapp w-100 btn-lg"
+      target="_blank" rel="noopener noreferrer">
+      Fazer pedido agora
+    </a>
+  </div>
+
+  <!-- Bootstrap 5 JS (opcional, para componentes interativos) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script>
+    document.getElementById("ano").textContent = new Date().getFullYear();
+
+    (function () {
+      var nodes = document.querySelectorAll(".reveal-on-scroll");
+      if (!nodes.length || !("IntersectionObserver" in window)) {
+        nodes.forEach(function (el) { el.classList.add("is-visible"); });
+        return;
+      }
+      var obs = new IntersectionObserver(
+        function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("is-visible");
+              obs.unobserve(entry.target);
+            }
+          });
+        },
+        { root: null, rootMargin: "0px 0px -8% 0px", threshold: 0.08 }
+      );
+      nodes.forEach(function (el) { obs.observe(el); });
+    })();
+  </script>
+
+  <!--
+    Imagens usadas nesta página:
+    hero-bolo-simone.png, bolo-chocolate.png, bolo-cenoura.png, bolo-leite-ninho.png,
+    bolo-cafe.png, bolo-fuba.png, cafe-com-bolo.png, mesa-cafe-da-tarde.png,
+    og-bolos-da-simone.png (Open Graph / compartilhamento — ajuste URL absoluta nas metas)
+  -->
+</body>
+
+</html>
